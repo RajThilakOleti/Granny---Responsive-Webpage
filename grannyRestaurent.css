@@ -1,0 +1,608 @@
+body,html{
+    width  : 100%;
+    height: 100%;
+}
+
+.fa-star-of-david.down{
+    transform:rotate(180deg);
+}
+
+.fa-star-of-david{
+    margin : 0% 10px;
+    transition: all 1s linear;
+}
+
+.star::before{
+    content: "";
+    display: inline-block;
+    width : 20%;
+    height : 2px;
+    background-color : rgb(172, 157, 157);
+}
+
+.star::after{
+    content: "";
+    display: inline-block;
+    width : 20%;
+    height : 2px;
+    background-color : rgb(172, 157, 157);
+}
+
+.fass{
+    margin : 0% 5px;
+}
+
+.star1::before{
+    content: "";
+    display: inline-block;
+    width : 100px;
+    height : 2px;
+    background-color : rgb(172, 157, 157);
+}
+
+.star1::after{
+    content: "";
+    display: inline-block;
+    width : 100px;
+    height : 2px;
+    background-color : rgb(172, 157, 157);
+}
+
+
+
+header{
+    /* font-family: Kaushan Script; */
+    width: 100%;
+    /* height : 100%; */
+    /* height : auto; */
+    /* background-color: tomato; */
+    background : url("pizzaBackground.jpg");
+    background-size : cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    /* padding-bottom : 9.5%;    */
+}
+
+.overlay{
+    width : 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    
+}
+
+/* repeating-linear-gradient( -45deg, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2) 15px, transparent 15px, transparent 30px) */
+nav{
+    position:sticky;
+    top : 0;
+}
+
+.main-nav-link{
+    color : white !important;
+}
+
+.dropdown-item{
+    color : white;
+}
+
+.dropdown-item:hover{
+    color : white;
+    background: none;
+}
+
+
+.content{
+    position: relative;
+    width : 80%;
+    /* height : 60%; */
+    box-sizing: content-box;
+    /* margin-top : 50%; */
+    /* margin-bottom : 10%; */
+    /* transform: translate(50%,50%); */
+    margin-top : 8.5%;
+    margin-left: 50%;
+    transform: translate(-50%,0%);
+    color : white;
+    margin-bottom : 9.5%;
+    /* border :1px solid aqua; */
+}
+
+.content h1{
+    font-family : Kaushan Script;
+    text-align: center;
+    /* border : 1px solid red; */
+}
+
+.content p{
+    /* font-family : Kaushan Script; */
+    font-family:Sacramento;
+    /* margin-top: 1%; */
+    padding-top: 1%;
+    font-size: 1.8em;
+    /* letter-spacing: 32x; */
+    font-weight: bold;
+    text-align : center;
+}
+
+
+.reservationDiv{
+    /* border : 1px solid silver; */
+    padding-left : 42%;
+    padding-right : 30%;
+}
+
+
+
+ 
+
+.second{
+    width : 100%;
+    padding-top : 2%;
+    padding-bottom : 6%;
+    /* height : 140%; */
+    border : 1px solid black;
+    /* background-color : tomato; */
+}
+
+.secondContent1{
+    width : 80%;
+    margin-left: 10%;
+    text-align : center;
+    
+}
+
+.secondContent1 h3{
+    font-family : sacramento;
+    margin-top : 4%;
+    display : inline-block;
+    color : rgb(235, 182, 114);
+    font-weight : bold;
+}
+
+.secondContent1 h1{
+    font-family : Kaushan Script;
+}
+
+.secondContent1 p{
+    font-family : helvetica;
+    /* border : 1px solid black; */
+    width : 65%;
+    color : rgb(172, 157, 157);
+    margin-left: 17.5%;
+}
+
+.second-linksDiv{
+    /* border : 1px solid black; */
+    margin-top : 6%;
+    padding-left : 25%;
+    padding-right : 20%;
+    text-align: left;
+}
+
+.second-linksDiv > a{
+    /* margin-left : 10%; */
+    color : black;
+    font-weight : bold;
+    font-family: Kaushan Script;
+    /* border-bottom : 2px solid red; */
+    /* padding : 0.5% 1.3% 0.5% 1.5%; */
+    font-size : 20px;
+}
+
+.active{
+    color : rgb(235, 182, 114) !important;
+    border-bottom : 2px solid rgb(235, 182, 114);
+}
+
+
+.imagesContainer{
+    margin-top:3%;
+    display: flex;
+    flex-wrap : wrap;
+    justify-content: space-evenly;
+    /* background-color: aquamarine; */
+}
+
+.card{
+    border : none;
+    /* margin-top : 2%; */
+}
+
+.card-body{
+    text-align : center;
+}
+
+.card-body h4{
+    font-weight : bold;
+    font-family : sacramento;
+    color : rgb(235, 182, 114);
+}
+
+.card-body h3{
+    font-family : Kaushan Script;
+    color : black;    
+}
+
+.card-body p{
+    
+    font-family : arial;
+    color : rgb(172, 157, 157);
+}
+
+.card-img-top:hover{
+    transform: scale(1.1);
+    transition: all 2s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: all 2s;
+}
+
+.third{
+    /* padding-top : 5%; */
+    background : url(coffee.jpg);
+    background-size : cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    /* text-align : center; */
+    /* padding-bottom : 4%; */
+}
+
+.third h4{
+    font-family: Kaushan Script;
+    color : rgb(235, 182, 114);
+}
+
+.third h1{
+    font-family: Kaushan Script;
+    color : white;
+}
+
+
+.third-sub-div{
+    margin-top : 1%;
+    padding-top : 3%;
+    padding-bottom : 4%;
+    background-color : white;
+}
+
+.third-sub-div section{
+    text-align: center;
+    margin-top : 2%;
+    /* margin-bottom : 4%; */
+}
+
+.third-sub-div section h3{
+    font-family: Kaushan Script;
+    color : rgb(235, 182, 114);
+}
+
+.third-sub-div section h2{
+    font-family: Kaushan Script;
+}
+
+.third-sub-div section p{
+font-family : arial;
+color : rgb(172, 157, 157);
+}
+
+
+.four h3{
+    font-family: sacramento;
+    font-weight : bold;
+    color : rgb(235, 182, 114);
+}
+
+.four h1{
+    font-family: Kaushan Script;
+}
+
+.four p{
+font-family : arial;
+color : rgb(172, 157, 157);
+}
+
+.four-nav-Div a{
+    color : black;
+    font-weight : bold;
+    font-family: Kaushan Script;
+}
+
+.four-nav-Div a:nth-child(1){
+    color : rgb(235, 182, 114);
+    border-bottom : 2px solid rgb(235, 182, 114);
+
+}
+
+.imagesDiv{
+    transform: translateY(-0.5%);
+    box-shadow: 1px 1px 10px black;
+    padding : 0px;
+    display : flex;
+    flex-wrap : wrap;
+
+}
+
+.imagesDiv section{
+    flex-basis: 340px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow : 1;
+}
+
+.sec-content{
+    background-color : white;
+    /* text-align : center; */
+    /* padding-top :3%;     */
+}
+
+.sec-content h2{
+    /* text-align : center; */
+    font-family: Kaushan Script;
+}
+
+.sec-content h3{
+    /* text-align : center; */
+    font-family: Kaushan Script;
+}
+
+.sec-content p{
+    /* padding-left : 1.5%;
+    padding-right : 1.5%; */
+    font-family : arial;
+    color : rgb(172, 157, 157);
+    text-align : center;
+}
+
+.sec-image img{
+    width : 100%;
+    height : 100%;
+}
+
+.four-backDiv1{
+    /* width : 100%; */
+    /* height : 800px; */
+    background: url("coffee.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.four-backDiv2{
+    /* height : 400px; */
+    /* background: tomato; */
+    /* display : flex;
+    align-items: flex-end;
+    justify-content: center; */
+    /* z-index: 0; */
+}
+
+
+.four-backDiv2 a{
+    border : 1px solid black;
+    /* margin-bottom : 5%; */
+    color : white;
+    background-color : black;
+    /* padding : .5% 1.5% .5% 1.8%; */
+}
+
+.five{
+    background: url("grannyRestaurent.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.five-header-div h3{
+    font-family: sacramento;
+    color : rgb(235, 182, 114);
+    font-weight : bold;
+}
+
+.five-header-div h2{
+    font-family: Kaushan Script;
+    color : white;
+    font-weight : bold;
+}
+
+.five-card-Container div{
+    flex-grow: 1;
+}
+
+.five-card-body p{
+    margin-top : 5%;
+}
+
+.card-header > h4{
+    font-family: kaushan Script;
+}
+
+.card-body > p{
+    font-family: sacramento;
+}
+
+.card-header > p{
+    font-family: verdana;
+}
+
+.six-header-container{
+    display: flex;
+    flex-direction: column;
+    align-items : center; 
+}
+
+.six-header-container h2{
+    font-family: sacramento;
+    color : rgb(235, 182, 114);
+}
+
+.six-header-container h1{
+    font-family: Kaushan Script;
+}
+
+.six-header-container p{
+    color : silver;
+}
+
+.carousel{
+    /* border : 1px solid red; */
+    width : 100%;
+    margin : 0%;
+    padding: 1%;
+}
+
+.cardFlex-corousel{
+    width : 100%;
+    padding-bottom : 2%;
+    display : flex;
+    justify-content: space-evenly;
+    flex-wrap : wrap;
+    margin-left: 0%;
+    /* border : 1px solid blue; */
+}
+
+.cardFlex-corousel>.card{
+    margin-left : 0%;
+    color : white;
+    background-color : black;
+}
+
+ .seven{
+    background-color: #212020;
+    color : white;
+    /* padding-top: 5%;*/ 
+}
+
+.seven-sec2{
+    text-align: center;
+    background-color: black;
+    border : 1px solid rgb(235, 182, 114);
+    box-shadow: 5px 5px 22px black;
+}
+
+@media only screen and (min-width : 768px){
+    .seven-sec2{
+        transform: translateY(-18%);
+    }
+}
+
+.seven-sec2 h1{
+    font-family: Kaushan Script;
+}
+
+.tableBtn{
+    text-align : center;
+    border : 1px solid rgb(235, 182, 114);
+}
+
+.tableBtn a{
+    color :rgb(235, 182, 114);
+}
+
+
+.mapBtn{
+
+color: rgb(235, 182, 114);
+}
+
+.flex-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* width : 30%; */
+    border-bottom : 1px silver dashed;
+    /* padding-bottom : 0px; */
+    margin-bottom : 3%;
+}
+
+.row-social{
+    background-color: #212020;
+}
+.social-icons>i{
+    font-size : 1em;
+    background-color : black;
+    color : white;
+    border : hidden;
+    border-radius : 30%;
+    /* margin : 1%; */
+    margin-left : 1%;
+    margin-right : 1%;
+    padding :2%;
+}
+
+.icon-inputDiv>input{
+    color : rgb(235, 182, 114);
+    font-family: Kaushan Script;
+    /* width : 90%; */
+    /* height : 100%; */
+    margin-left : 3%;
+    background-color : black;
+    outline : none;
+    border : none;
+    padding : 3% 3% 3% 10%;
+    border-radius : 100px;
+}
+
+::placeholder{
+    padding-left : 5%;
+    color : rgb(235, 182, 114);
+    font-family : Kaushan Script;
+}
+
+.copyrightsDiv{
+    background-color: black !important;
+    color : silver;
+}
+
+
+.discoverBtn:hover{
+    transform: scaleX(1.1);
+    transition: all 1s;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width : 422px){
+
+    /* .imagesDiv{
+        transform: translateY(-1%);
+        padding : 0px;
+        display : flex;
+        flex-wrap : wrap;
+        border : 1px solid brown;
+        z-index: 1;  
+    } */
+/* 
+    .four-backDiv1{
+        height : 2000px;
+        background: url("coffee.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        z-index: 0;
+    }
+
+    .four-backDiv2{
+        height : 700px;
+        display : flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .four-backDiv2 a{
+        border : 1px solid black;
+        margin-bottom : 10%;
+        color : white;
+        background-color : black;
+        padding : .5% 1.5% .5% 2%;
+    } */
+
+
+}
+
+
+
